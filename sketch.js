@@ -22,6 +22,7 @@ function draw() {
 	gy = map(mouseY, 0, 400, 0, 255);
 	
 	background(rx+ry, gx+gy, bx+by);
+	noStroke();
 
 	// add test comment
 }
